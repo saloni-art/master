@@ -9,4 +9,5 @@ RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 COPY index.html  /etc/nginx/nginx.conf
 
 EXPOSE 80
-CMD ["nginx"]
+CMD ["nginx"]I
+this is for test
