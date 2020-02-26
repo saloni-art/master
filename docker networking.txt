@@ -1,0 +1,27 @@
+1) iptables -L
+2) iptables -L  > before
+3) docker run -it --name node1 -p 2222:22 dockerimagename:tag /bin/bash
+4) ip r l
+5) if config
+6) apt-get install net-tools
+7) apt-get install iproute2
+8) apt-get install iputils-ping
+9) apt-get install openssh-server
+10) apt-get install vim
+11) ip r l
+12) /etc/init.d/ssh status
+13) /etc/init.d/ssh start
+14) /etc/init.d/ssh status
+15) open duplicate session
+16) iptables -L > after
+17) diff before after
+
+to check is there any issue with login and logout we have to exit from there and run this command
+*) docker run -it --name -d node1 -p 2222:22 dockerimagename:tag /bin/bash
+
+*) vi /etc/ssh/sshd_config
+
+*) /etc/init.d/ssh restart  
+
+*) netstat -nltup | grep 2222
+8) ssh -p 2222 ipaddress 
