@@ -1,0 +1,10 @@
+
+1)ssh root@13.127.94.203
+2)ssh-keygen
+3) scp -r raghu/ root@12.127.94.203:/var/www/html
+
+13.233.215.75 copy - puchna hai
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwuIHFjV+FwpHsit70bwSPHl21Hvv6Cwrn0tKU49oKqlxSOkdyTjUHzBvFyobQhKHFzqTEnBGtwytqTg6+iW/y1A5Rh9L+QkyNuYgFahY224XDq0t0vbz1R4W/31oYGHzX8Ut4InWdoe0bdCpBY7JjcaCvRQGUhMa/OVDNX2I7EceD7zu7zUvUkpBdQdyYWbn7tcUXKj68w5AlzVYENdjo5GN/Oftkrd5u708B/piTsiZzscVHlE/zjguGDw9VyX0+aP1vq9OzhHTBz/bKZMejth7xnL2f2YhUEb9xgp2MOJMS1Q8NjtlcGuk/k9m8Y54uRu6duWDPAm6bmnMjSVRx
