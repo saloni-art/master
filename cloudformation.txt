@@ -1,0 +1,6 @@
+cloud formation
+
+cloud formation as a service gives u the ability to create complete aws environment which consist of diff resourses or differnet services with the help of template.
+
+template
+stack - collection of all the resoures is called stack
