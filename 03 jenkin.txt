@@ -1,0 +1,13 @@
+https://github.com/saloni-art/master.git
+
+http://13.233.141.116:8080/github-webhook/
+
+
+https://github.com/saloni-art/master.git
+
+cd /home/ubuntu/master
+git pull origin master
+
+jb kuch naya code aata hai git p
+
+devpush any -gitbranch-webhook -jenkinsscm(git)-buildtrigger (github hook trigger)- build(execute shell) (git pull origin master)
