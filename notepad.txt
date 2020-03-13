@@ -1,0 +1,27 @@
+192.168.1.0/16
+vpc-09d3506ab464898dd
+
+subnet-09c0260676e0fc00f
+
+igw-08566d39e732043c4
+
+192.168.0.0/16
+
+vpc-09d3506ab464898dd
+
+permission file change karna directory or file ka
+ownership change karna
+vim editor m kaise kaam hota hai
+:wq!
+escae :q
+
+save: :w
+save and exit: :wq
+exit: :q
+force: ! (example :w! :q!)
+vertical split: open a document and then type :vsplit /path-to-document/document and this will open the specified document and split the screen so you can see both documents.
+copy: y
+copy a line: yy
+paste: p
+cut: d
+cut a line: dd
