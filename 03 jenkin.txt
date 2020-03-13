@@ -1,0 +1,19 @@
+https://github.com/saloni-art/master.git
+
+http://13.233.141.116:8080/github-webhook/
+
+
+https://github.com/saloni-art/master.git
+
+cd /home/ubuntu/master
+git pull origin master
+
+jb kuch naya code aata hai git p
+
+devpush any -gitbranch-webhook -jenkinsscm(git)-buildtrigger (github hook trigger)- build(execute shell) (git pull origin master) 
+
+like in normal senario whenever any developer push the code to the git we have to login to our machine to pull that code and it is very hectic task to do this again and again, so we can use the jenkin tool to automate this task. in gitbranch there is an obtion that is webhook where we can copy our jenkkin url, it means in case of any chages happens to github webhook will call jenkins. in jenkings we will select the git in source code management, then in build trigger obtion we will select github hook trigger, now we will select execute shell in build, in the buils section we can write our command like to ssh any machine and run the git hub commant on that machine after doing these step we apply and save.
+so whenever any changes happens in github webhook call the jenkins and jenkin will run the command written in buid section. so our commant will run automatically without any human intervention.
+
+
+ 
